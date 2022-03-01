@@ -1,3 +1,7 @@
+.titulo {
+    width: 52%;
+    background-color: red;
+}
 .parrafo {
     width: 100%;
     background-color: rgba(89, 0, 255, 0.356);
@@ -7,7 +11,10 @@
 }
 
 .contacto {
-    width: 26%; 
+    width: 36%; 
     background-color: rgba(127, 208, 255, 0.377);
-
 }
+
+
+
+
