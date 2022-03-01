@@ -1,0 +1,13 @@
+.parrafo {
+    width: 100%;
+    background-color: rgba(89, 0, 255, 0.356);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contacto {
+    width: 26%; 
+    background-color: rgba(127, 208, 255, 0.377);
+
+}
