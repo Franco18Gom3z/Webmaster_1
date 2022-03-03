@@ -10,6 +10,10 @@
     font-size: 15px;
 }
 
+.destacado {
+    color: red;
+}
+
 .contacto {
     width: 36%; 
     background-color: rgba(127, 208, 255, 0.377);
