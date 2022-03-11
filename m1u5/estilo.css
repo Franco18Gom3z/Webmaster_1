@@ -1,0 +1,61 @@
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#Titulo { 
+    color: grey;
+    background-color: pink;
+    width: 275px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 4px 4px 2px rgb(255, 98, 109);
+    border-radius: 16px;
+}
+
+.img {
+    filter: drop-shadow(0 0 10px #9c43bc);
+    transition: all 0.4s;
+}
+.img:hover {
+    filter: drop-shadow(0 0 40px #9c43bc);
+}
+
+.icono{
+    color: #9c43bc;
+    font-size: 15px;
+}
+
+p {
+    font-style: italic;
+}
+
+.parrafo {
+    
+    width: 100%;
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    column-count: 3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.destacado {
+    color: #9c43bc;
+    font-family: fantasy;
+}
+
+.contacto {
+    box-shadow: 10px 12px 19px -2px rgba(0,0,0,0.75);
+    -webkit-box-align: 10px 12px 19px -2px rgba(0,0,0,0.75);
+    -moz-window-shadow: 10px 12px 19px -2px rgba(0,0,0,0.75);
+    width: 194px; 
+    background-color: rgba(0, 162, 255, 0.377);
+}
+
+
+
+
