@@ -1,15 +1,16 @@
+/* para comentario crtl + } */
 /* font-family: 'Ubuntu', sans-serif; */
 /* font-family: 'Bebas Neue', cursive; */
 /* font-family: 'Libre Baskerville', serif; */
 /* font-family: 'EB Garamond', serif; */
 
 body{
-    background: #FF5F6D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
 }
 
-#Titulo { 
+#Titulo {
     color: grey;
     background-color: #ff5f6d;
     width: 270px;
@@ -49,11 +50,8 @@ p {
 }
 
 .parrafo {
-    
     width: 100%;
-    background: #EECDA3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: none;
     column-count: 3;
     font-weight: bold;
     font-size: 15px;
@@ -69,7 +67,7 @@ p {
     box-shadow: 10px 12px 19px -2px rgba(0,0,0,0.75);
     -webkit-box-align: 10px 12px 19px -2px rgba(0,0,0,0.75);
     -moz-window-shadow: 10px 12px 19px -2px rgba(0,0,0,0.75);
-    width: 208px; 
+    width: 208px;
     background-color: #58355e;
 }
 
