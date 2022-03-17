@@ -1,4 +1,7 @@
 /* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Libre Baskerville', serif; */
+/* font-family: 'EB Garamond', serif; */
 
 body{
     background: #FF5F6D;  /* fallback for old browsers */
@@ -8,24 +11,37 @@ body{
 
 #Titulo { 
     color: grey;
-    background-color: pink;
-    width: 275px;
+    background-color: #ff5f6d;
+    width: 270px;
     font-family: 'Ubuntu', sans-serif;
-    text-shadow: 4px 4px 2px rgb(255, 98, 109);
-    border-radius: 16px;
+    text-shadow: 4px 4px 2px #cd7793;
+    border-radius: 16px 0 16px 0;
 }
 
 .img {
-    filter: drop-shadow(0 0 10px #9c43bc);
-    transition: all 0.4s;
+    filter: drop-shadow(0 0 7px #9c43bc);
+    transition: all 0.2s;
 }
 .img:hover {
     filter: drop-shadow(0 0 40px #9c43bc);
 }
 
-.icono{
-    color: #9c43bc;
-    font-size: 15px;
+.BB {
+    font-size: 25px;
+    color: green;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.GOT {
+    color: #608a9f;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.PB {
+    color: #e5e3e4;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
 }
 
 p {
