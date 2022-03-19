@@ -50,6 +50,7 @@ p {
 }
 
 .parrafo {
+    top: 0%;
     width: 100%;
     background: none;
     column-count: 3;
@@ -58,6 +59,7 @@ p {
 }
 
 .destacado {
+    top: 0%;
     color: #9c43bc;
     font-family: fantasy;
 }
