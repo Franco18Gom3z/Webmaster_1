@@ -52,6 +52,12 @@ nav ul li a.activo{
     background-color: #4c76a5;
 }
 
+main{
+    width: 100%;
+    background: white;
+    display:inline;
+}
+
 footer{
     background-color: #ccc;
     clear: both;
