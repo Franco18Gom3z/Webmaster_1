@@ -1,10 +1,13 @@
 /* font-family: 'Open Sans', sans-serif; */
 .container{
+    background-color:#1985A1;
     display: flex;
     justify-content: space-between;
 }
 
 .card{
+    background: #1B2845;
+    color: #BB06DB;
     margin: 5px;
     display: flex;
     justify-content: center;
