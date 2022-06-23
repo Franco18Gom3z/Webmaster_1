@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.main{
+    background-color: #03080a;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    /* box-shadow: 5px 5px 15px#fff; */
+    text-align: center;
+
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.card-image{
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text{
+    background-color: white;
+    grid-area: text;
+    margin: 25px;
+}
+.card-text .producto{
+    color: #10a1c6;
+    font-weight: 600;
+}
+
+.card-text p{
+    color: grey;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card-text h2{
+    margin-top: 0%;
+    font-size: 28px;
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(16, 161, 198);
+}
+
+.card-stats .stat{
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    transition: .5s ease;
+}
+
+.card-stats .stat:hover{
+    border-radius: 15px 0 15px 15px;
+}
+
+.card-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-stats .border{
+    border-left: 1px solid #0b7793;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    /* box-shadow: 2px 2px 5px #45f3ff; */
+}
+
