@@ -1,0 +1,15 @@
+body{
+    background-color: #24252A;
+    color: #fff;
+}
+
+.btn {
+    background-color: #035dda;
+    transition: all 0.1s linear;
+}
+
+.btn:hover {
+    background: #6a99fd;
+    display: block;
+    transform: scale(0.95);
+}

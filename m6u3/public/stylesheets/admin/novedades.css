@@ -1,0 +1,22 @@
+body{
+    background-color: #24252A;
+    color: white;
+}
+
+.container{
+    min-width: 100%;
+    /* min-height: 100%; */
+    /* display: flex; */
+    background-color: #03080a;
+    border-radius: 5px;
+}
+
+/* .r2{
+    display: flex;
+    justify-content: center;
+} */
+
+.table>:not(caption)>*>* {
+    background-color: #000;
+    color: #94969a;
+}

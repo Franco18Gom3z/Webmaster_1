@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HardShopp</title>
+  <!-- <link rel="icon" href="img/logo.png"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" href="/stylesheets/estilo.css">
+
+
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/images/logo.png" alt="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+        <li><a class="{{#if isTienda}}activo{{/if}}" href="/tienda">Tienda</a></li>
+        <li><a class="{{#if isNovedades}}activo{{/if}}" href="/novedades">Novedades</a></li>
+        <li><a class="{{#if isNosotros}}activo{{/if}}" href="/nosotros">Nosostros</a></li>
+      </ul>
+    </nav>
+    <a class="{{#if isContacto}}activo{{/if}}" href="/contacto"><button>Contacto</button></a>
+  </header>
+  <main>
+    {{{body}}}
+  </main>
+  <footer>
+    <div class="footer-content">
+      <h3>Franco Gomez</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi officiis ipsa nobis nemo
+        pariatur doloribus voluptas!</p>
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/profile.php?id=100011532256018" target="_blank"><i
+              class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/fran18gomez/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/franco-gomez-b6816321b/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Franco18Gom3z" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2022 Franco Gomez. designed by <span>Franco Gomez</span></p>
+    </div>
+  </footer>
+</body>
+
+</html>

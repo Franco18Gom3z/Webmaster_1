@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/admin/login.css">
+</head>
+<div class="container">
+  <form class="box" action="/admin/login/" method="post">
+    <h1>Login</h1>
+    <input type="text" name="usuario" placeholder="Usuario">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit" class="full-rounded"><span>Ingresar</span></button>
+
+    {{#if error}}
+    <p>Usuario o contraseña Incorrecta.</p>
+    {{/if}}
+
+  </form>
+</div>
+
+{{!-- <div class="container" style="margin:100px auto">
+  <div class="row">
+    <div class="col">
+      <form action="/admin/login/" method="post">
+        <div class="form-group">
+          <input type="text" name="usuario" class="form-control" placeholder="Usuario">
+        </div>
+        <div class="form-group">
+          <input type="text" name="password" class="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
+      {{#if error}}
+      <p>Usuario o clave Incorrecto.</p>
+      {{/if}}
+    </div>
+  </div>
+</div> --}}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/contacto.css">
+</head>
+
+</html>
+<div class="container">
+    <h2>Contáctanos</h2>
+    <form action="/contacto" method="post">
+        <div class="row100">
+            <div class="col">
+                <div class="inputbox">
+                    <input type="text" name="nombre" required="required">
+                    <span class="text">Nombre</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            {{!-- <div class="col">
+                <div class="inputbox">
+                    <input type="text" name="apellido" required="required">
+                    <span class="text">Apellido</span>
+                    <span class="line"></span>
+                </div>
+            </div> --}}
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputbox">
+                    <input type="text" name="email" required="required">
+                    <span class="text">E-mail</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputbox">
+                    <input type="text" name="telefono" required="required">
+                    <span class="text">Num. Telefonico</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputbox textarea">
+                    <textarea name="mensaje" required="required"></textarea>
+                    <span class="text">Escribir Mensaje Aqui...</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <input type="submit" value="Enviar">
+            </div>
+        </div>
+    </form>
+    {{#if message}}
+        <p class="message">{{message}}</p>
+    {{/if}}
+</div>
