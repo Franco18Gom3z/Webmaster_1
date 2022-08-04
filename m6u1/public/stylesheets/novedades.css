@@ -1,0 +1,10 @@
+body{
+    background-color: #24252A;
+    color: #000
+}
+
+
+.table>:not(caption)>*>* {
+    background-color: #000;
+    color: white;
+}

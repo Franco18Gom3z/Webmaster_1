@@ -8,10 +8,10 @@ var session = require('express-session')
 require('dotenv').config();
 
 var indexRouter = require('./routes/index');
-var loginRouter = require('./routes/login')
 var tiendaRouter = require('./routes/tienda');
 var nosotrosRouter = require('./routes/nosotros');
 var contactoRouter = require('./routes/contacto');
+var loginRouter = require('./routes/login')
 
 
 var app = express();
@@ -81,10 +81,10 @@ app.get('/', function (req,res) {
 });
 
 app.use('/', indexRouter);
-app.use('/login', loginRouter);
 app.use('/tienda', tiendaRouter);
 app.use('/nosotros', nosotrosRouter);
 app.use('/contacto', contactoRouter);
+app.use('/login', loginRouter);
 
 
 // catch 404 and forward to error handler
